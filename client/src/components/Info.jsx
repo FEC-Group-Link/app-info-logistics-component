@@ -14,7 +14,7 @@ const Info = function(props) {
 
   return (
     <div className='info'>
-      <img className='image' src={props.app.imageUrl}></img>
+      <img className='image' src='https://i.picsum.photos/id/403/100/100.jpg?hmac=u69eaQcW-fHFQXgCTwIlurxwv6IjJLNxlW_RDazTuaA'></img>
       <div className='name'>{props.app.name}</div>
       <div className='editorsChoice'> <img src={editorsChoiceLogo}></img> {editorsChoice}</div>
       <div className='author'>{props.app.author}</div>
